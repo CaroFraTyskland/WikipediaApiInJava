@@ -1,3 +1,7 @@
+package userStats;
+
+import helper.HttpRequestHelper;
+
 /**
  * Contains methods to retrieve the edit count of users.
  */
