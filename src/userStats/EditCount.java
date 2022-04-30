@@ -11,7 +11,7 @@ public class EditCount {
      * Returns the edit count of a given user.
      *
      * @param userName     the user's name (should only contain encoded special characters)
-     * @param wikiLanguage the language of the Wikipedia (e.g. "en", "de")
+     * @param wikiLanguage the language of the Wikipedia (for example "en", "de")
      * @return the number of edits
      */
     public static int getEditCount(String userName, String wikiLanguage) {
@@ -35,7 +35,7 @@ public class EditCount {
      * Retrieves the JSON data containing the edit count of the given user in the given Wikipedia project.
      *
      * @param userName     the user's name
-     * @param wikiLanguage the language of the Wikipedia project (e.g. "en", "de")
+     * @param wikiLanguage the language of the Wikipedia project (for example "en", "de")
      * @return the API response in JSON format
      */
     private static String getEditCountFromApi(String userName, String wikiLanguage) {
